@@ -105,11 +105,11 @@ public class Main {
         // 43
         estaciones.add("El Remanso Carrera 12 Calle 27");
         // 44
-		estaciones.add("Estación Diamante");
-		// 45 S/N
-		estaciones.add("Centro Recreacional Comfenalco");
-		// 46 S/N
-		estaciones.add("Estadio Álvaro Gómez Hurtado");
+	estaciones.add("Estación Diamante");
+	// 45 S/N
+	estaciones.add("Centro Recreacional Comfenalco");
+	// 46 S/N
+	estaciones.add("Estadio Álvaro Gómez Hurtado");
         ArrayList<Integer> T2_S_N = new ArrayList<>();
         T2_S_N.add(0);
         T2_S_N.add(1);
