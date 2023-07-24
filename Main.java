@@ -37,7 +37,7 @@ public class Main {
         // 9
         estaciones.add("Portal Piedecuesta");
         // 10 S/N
-        estaciones.add("Puente Españolita");
+        estaciones.add("Puente Españolina");
         // 11 S/N
         estaciones.add("Puente Campoalegre");
         // 12
@@ -104,6 +104,12 @@ public class Main {
         estaciones.add("Supermercado La Canasta");
         // 43
         estaciones.add("El Remanso Carrera 12 Calle 27");
+        // 44
+		estaciones.add("Estación Diamante");
+		// 45 S/N
+		estaciones.add("Centro Recreacional Comfenalco");
+		// 46 S/N
+		estaciones.add("Estadio Álvaro Gómez Hurtado");
         ArrayList<Integer> T2_S_N = new ArrayList<>();
         T2_S_N.add(0);
         T2_S_N.add(1);
@@ -114,9 +120,11 @@ public class Main {
         T2_S_N.add(6);
         T2_S_N.add(7);
         T2_S_N.add(8);
+        T2_S_N.add(44);
         rutas.add("T2_S_N");
         metro.put("T2_S_N", T2_S_N);
         ArrayList<Integer> T2_N_S = new ArrayList<>();
+        T2_N_S.add(44);
         T2_N_S.add(8);
         T2_N_S.add(7);
         T2_N_S.add(6);
@@ -143,6 +151,8 @@ public class Main {
         T4.add(1);
         T4.add(2);
         T4.add(3);
+        T4.add(45);
+        T4.add(46);
         // metro.put("T4", temp);
         ArrayList<Integer> P5_N_S = new ArrayList<>();
         P5_N_S.add(1);
