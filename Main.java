@@ -110,6 +110,47 @@ public class Main {
 	estaciones.add("Centro Recreacional Comfenalco");
 	// 46 S/N
 	estaciones.add("Estadio Álvaro Gómez Hurtado");
+    	// 47
+    	estaciones.add("Estación Molinos");
+    	// 48
+    	estaciones.add("Estación Hormigueros");
+    	// 49
+    	estaciones.add("Antonia Santos");
+    	// 50
+    	estaciones.add("Conucos");
+	// 51
+    	estaciones.add("Carrera 27 Calle 55");
+    	// 52
+    	estaciones.add("Parque Turbay");
+    	// 53
+    	estaciones.add("Carrera 27 Calle 37");
+    	// 54
+    	estaciones.add("Decoriente");
+    	// 55
+    	estaciones.add("Carrera 27 Calle 19");
+    	// 56
+    	estaciones.add("Sena");
+    	// 57
+    	estaciones.add("Carrera 27 Calle 11");
+    	// 58
+    	estaciones.add("Calle 10 Carrera 26");
+    	// 59
+    	estaciones.add("Iglesia Cristo Rey Usta");
+    	// 60
+    	estaciones.add("Colegio Bethlemitas");
+    	// 61
+    	estaciones.add("Calle 11 Carrera 18");
+    	// 62
+    	estaciones.add("Calle 11 Carrera 20");
+    	// 63
+    	estaciones.add("Calle 11 Carrera 23");
+    	// 64
+    	estaciones.add("Parque Estación Uis");
+    	// 65
+    	estaciones.add("Estación Parque De Los Niños");
+    	// 66
+	estaciones.add("Estación Hospital Internacional De Colombia Hic");
+	    
         ArrayList<Integer> T2_S_N = new ArrayList<>();
         T2_S_N.add(0);
         T2_S_N.add(1);
@@ -191,6 +232,58 @@ public class Main {
         P5_S_N.add(1);
         rutas.add("P5_S_N");
         metro.put("P5_S_N", P5_S_N);
+    	ArrayList<Integer> P6_S_N = new ArrayList<>();
+        P6_S_N.add(18);
+        P6_S_N.add(19);
+        P6_S_N.add(1);
+        P6_S_N.add(2);
+        P6_S_N.add(47);
+        P6_S_N.add(48);
+        P6_S_N.add(3);
+        P6_S_N.add(4);
+        P6_S_N.add(45);
+        P6_S_N.add(49);
+    	P6_S_N.add(50);
+	P6_S_N.add(51);
+    	P6_S_N.add(52);
+	P6_S_N.add(53);
+    	P6_S_N.add(54);
+	P6_S_N.add(55);
+	P6_S_N.add(56);
+    	P6_S_N.add(57);
+    	P6_S_N.add(58);
+    	P6_S_N.add(59);
+	P6_S_N.add(60);
+    	P6_S_N.add(61);
+    	P6_S_N.add(62);
+    	P6_S_N.add(63);
+    	P6_S_N.add(64);
+    	rutas.add("P6_S_N");
+        metro.put("P6_S_N", P6_S_N);
+    	ArrayList<Integer> P6_N_S = new ArrayList<>();
+        P6_N_S.add(64);
+    	P6_N_S.add(56);
+    	P6_N_S.add(55);
+    	P6_N_S.add(65);
+    	P6_N_S.add(53);
+    	P6_N_S.add(52);
+    	P6_N_S.add(51);
+    	P6_N_S.add(50);
+    	P6_N_S.add(49);
+    	P6_N_S.add(44);
+    	P6_N_S.add(3);
+    	P6_N_S.add(2);
+    	P6_N_S.add(48);
+    	P6_N_S.add(47);
+    	P6_N_S.add(1);
+    	P6_N_S.add(0);
+    	P6_N_S.add(17);
+    	rutas.add("P6_N_S");
+        metro.put("P6_N_S", P6_N_S);
+    	ArrayList<Integer> P15 = new ArrayList<>();
+    	P15.add(66);
+    	P15.add(12);
+    	P15.add(66);
 
         news.put("Lluvia", 1.2);
         news.put("Día sin carro", 0.9);
